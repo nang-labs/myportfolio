@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span>Port</span>folio<span>.</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="theme-switch" id="theme-btn">
+            <i class="fas fa-moon"></i>
+        </div>
+
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h3 class="sub-title">Hi it's Me</h3>
+                <!-- បង្ហាញឈ្មោះនៅត្រង់នេះជាអក្សរថេរច្បាស់ៗ -->
+                <h1 class="developer-name">Sang Samnang</h1>
+                <!-- ផ្នែកអក្សររត់ (Animation) ប្តូរមកសល់ត្រឹមឃ្លាខាងក្រោមនេះ -->
+                <h2 class="animated-headline">I'm <span class="typing-text"></span></h2>
+                <p class="hero-desc">
+                    I'm a final-year Information Technology student with a passion for frontend development. I enjoy
+                    creating responsive, user-friendly websites using modern web technologies and continuously improving
+                    my skills through real-world projects.
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://github.com/nang-labs" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://t.me/Nang_133" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+
+                </div>
+                <div class="hero-buttons">
+                    <!-- 💡 បញ្ជាក់៖ ដាក់ផ្លូវទៅកាន់ឯកសារ PDF និងបន្ថែម attribute download -->
+                    <a href="asset/logo/cv.pdf" target="_blank" download="my_cv.pdf" class="btn btn-primary">Download
+                        CV</a>
+                    <a href="#portfolio" class="btn btn-outline">View Project</a>
+                </div>
+            </div>
+
+            <div class="hero-image-container">
+                <div class="hexagon-wrapper animate-float">
+
+                    <div class="hexagon-glow">
+                        <div class="hexagon">
+                            <img src="asset/logo/image.png" alt="Profile Image" id="profile-img">
+                        </div>
+                    </div>
+
+                    <div class="floating-tech-icon tech-html"><i class="fab fa-html5"></i></div>
+                    <div class="floating-tech-icon tech-css"><i class="fab fa-css3-alt"></i></div>
+                    <div class="floating-tech-icon tech-js"><i class="fab fa-js-square"></i></div>
+                    <div class="floating-tech-icon tech-react"><i class="fab fa-react"></i></div>
+                </div>
+                <div class="dot-grid"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section target-section">
+        <h2 class="section-title">About Me <span>Biography</span></h2>
+        <div class="about-container">
+            <div class="about-text">
+                <h3>Who I Am</h3>
+                <p>Hello! I'm Samnang, a final-year IT student who loves building websites and learning new
+                    technologies. I enjoy creating responsive and user-friendly interfaces using modern frontend tools.
+                    Every project I build helps me improve my skills and gain more confidence as a developer.</p>
+
+                <p><br> I'm currently looking for an internship or junior frontend developer position where I can learn,
+                    grow, and contribute to a professional team.</p>
+                <div class="personal-info">
+                    <div class="info-item"><strong>Core Focus:</strong>Frontend Web Development</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section target-section">
+        <h2 class="section-title">Technical Expertise <span>My Skills</span></h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-icon-wrapper">
+                    <i class="fab fa-html5" style="color: #E34F26;"></i>
+                </div>
+                <h3>HTML5</h3>
+                <div class="skill-progress-wrap">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                    <span class="progress-percent">95%</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon-wrapper">
+                    <i class="fab fa-css3-alt" style="color: #1572B6;"></i>
+                </div>
+                <h3>CSS3</h3>
+                <div class="skill-progress-wrap">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                    <span class="progress-percent">90%</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon-wrapper">
+                    <i class="fab fa-js-square" style="color: #F7DF1E;"></i>
+                </div>
+                <h3>JavaScript (ES6+)</h3>
+                <div class="skill-progress-wrap">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                    <span class="progress-percent">85%</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon-wrapper">
+                    <i class="fab fa-react" style="color: #61DAFB;"></i>
+                </div>
+                <h3>React.js</h3>
+                <div class="skill-progress-wrap">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                    <span class="progress-percent">80%</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon-wrapper">
+                    <i class="fas fa-wind" style="color: #06B6D4;"></i>
+                </div>
+                <h3>Tailwind CSS</h3>
+                <div class="skill-progress-wrap">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                    <span class="progress-percent">85%</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon-wrapper">
+                    <i class="fab fa-php" style="color: #777BB4;"></i>
+                </div>
+                <h3>PHP & MySQL</h3>
+                <div class="skill-progress-wrap">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                    <span class="progress-percent">80%</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="education" class="education-section target-section">
+        <h2 class="section-title">Academic Background <span>My Education</span></h2>
+
+        <div class="education-timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 - 2026</div>
+                <div class="timeline-content">
+                    <h3>Bachelor's Degree in Information Technology</h3>
+                    <h4>National University of Management (Present)</h4>
+                    <p>Studied web development, programming, and database systems with hands-on experience from academic
+                        projects.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021 - 2022</div>
+                <div class="timeline-content">
+                    <h3>High School Bacll</h3>
+                    <h4>Touk Meas High School</h4>
+                    <p>Completed secondary education with a strong foundation in mathematics, science, and technology.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section target-section">
+        <div class="section-header" style="text-align: center; margin-bottom: 60px;">
+            <h2 class="section-title" style="font-size: 36px; font-weight: 700;">Featured Projects <span
+                    style="display: block; font-size: 14px; color: var(--primary-color); text-transform: uppercase; letter-spacing: 2px; margin-top: 5px;">My
+                    Portfolio</span></h2>
+        </div>
+
+        <div class="portfolio-grid">
+
+            <!-- Project 1: Online E-Book Rental System -->
+            <div class="portfolio-item">
+                <div class="p-image-wrap">
+                    <img src="asset/logo/Pro1.png" alt="E-Book Rental System">
+                    <div class="p-overlay"></div>
+                </div>
+                <div class="p-info">
+                    <div class="p-tags">
+                        <span class="tag-badge">PHP 8</span>
+                        <span class="tag-badge">MySQL</span>
+                        <span class="tag-badge">Bootstrap 5</span>
+                    </div>
+                    <h4>Online E-Book Rental System</h4>
+                    <p>A web-based rental management system that allows users to browse, rent, and manage e-books
+                        online. The system includes role-based access, QR payment simulation, and automatic rental
+                        expiration management.</p>
+                    <div class="p-footer">
+                        <a href="https://nangbookrent.infinityfreeapp.com/" target="_blank" class="view-project-btn">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Student Sublet & Roommate Finder -->
+            <div class="portfolio-item">
+                <div class="p-image-wrap">
+
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=600"
+                        alt="Roommate Finder">
+                    <div class="p-overlay"></div>
+                </div>
+                <div class="p-info">
+                    <div class="p-tags">
+                        <span class="tag-badge">PHP</span>
+                        <span class="tag-badge">MySQL</span>
+                        <span class="tag-badge">Responsive UI</span>
+                    </div>
+                    <h4>Student Sublet & Roommate Finder</h4>
+                    <p>A user-centric web platform designed to streamline accommodation searches, delivering responsive
+                        frontend layouts and efficient data filtration structures.</p>
+                    <div class="p-footer">
+                        <a href="#" target="_blank" class="view-project-btn">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact" class="contact-section target-section">
+        <h2 class="section-title">Get In Touch <span>Contact Me</span></h2>
+        <div class="contact-container">
+            <form class="contact-form" action="https://formsubmit.co/nangr1234@gmail.com" method="POST">
+
+                <input type="text" name="name" placeholder="Your Name" required>
+
+                <input type="email" name="email" placeholder="Your Email" required>
+
+                <textarea name="message" placeholder="Your Message..." rows="5" required></textarea>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 NANG. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
