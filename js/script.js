@@ -1,6 +1,5 @@
 // Typing Simulation Engine Loop
 const typingText = document.querySelector(".typing-text");
-// ទុកតែឃ្លាដែលបងចង់ឱ្យរត់ប៉ុណ្ណោះ
 const words = ["a Frontend Developer."]; 
 let wordIndex = 0;
 let charIndex = 0;
